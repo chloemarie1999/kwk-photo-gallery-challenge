@@ -17,7 +17,7 @@
   font-size: 280%;
 }
 
-.image-container {
+.images-cont {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -35,7 +35,7 @@ img {
 }
 
 @media all and (max-width: 1047px) {
-  .image-container {
+  .images-cont {
     width: 90%;
   }
 
@@ -46,7 +46,7 @@ img {
 }
 
 @media all and (max-width: 767px) {
-  .image-container {
+  .images-cont {
     width: 95%;
   }
 
