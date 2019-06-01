@@ -1,22 +1,27 @@
+
 * {
   margin: 5px;
   padding: 0;
 }
 
+/* Background color for website*/
 .body{
   background-color: #DFDFDF;
 }
 
+/* Navigation bar padding*/
 .nav{
   padding: 10px 10px;
   margin-bottom: 10px;
 }
 
+/* Navigation bar text font and size*/
 .title {
   font-family: 'Cormorant Garamond', serif;
   font-size: 280%;
 }
 
+/* Image containers constraints*/
 .images-cont {
   display: flex;
   flex-direction: row;
@@ -28,12 +33,15 @@
 
 }
 
+/* Images size and margins between each other*/
 img {
   width: 40%;
   height: 100%;
   margin: 9px;
 }
 
+/*Responsive css beginning*/
+/*Responsive contraints 1*/
 @media all and (max-width: 1047px) {
   .images-cont {
     width: 90%;
@@ -45,6 +53,7 @@ img {
   }
 }
 
+/*Responsive contraints 2*/
 @media all and (max-width: 767px) {
   .images-cont {
     width: 95%;
